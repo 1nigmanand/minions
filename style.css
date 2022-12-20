@@ -1,47 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Estonia&family=M+PLUS+1+Code&family=Montserrat&display=swap');
         body{
             font-family: 'Montserrat', sans-serif;
-        }
-        .b{
-            font-family: 'Montserrat', sans-serif;  
+            background-color: greenyellow;
         }
         textarea{
-            width: 90%;
-            display: block;
+            width: 50%;
+            /* display: block; */
             margin: auto;
             height: 13vh;
-            border: 5px solid black;
+            border: 2px solid black;
             text-align: center;
+            background-color: wheat;
+            border-radius: 2rem;
         }
         #btn-translate{
-            background-color: rgb(182, 245, 22);
             margin: 1rem 0;
-            border-radius: 4rem;
-        }
-        button{
-            margin: auto;
-        }
-        .letter{
-            padding: 1rem 0rem 0rem;
+            border-radius: 1rem;
         }
         #output{
-            width: 90%;
-            background-color: white;
+            width: 50%;
+            background-color: wheat;
             margin: auto;
-            height: 13vh;
-            border-radius: 4rem;
+            height: 10rem;
+            border-radius: 2rem;
             text-align: center;
+            border: solid black 2px;
         }
+        h1{
+            font-size: 3rem;
+            background-color: bisque;
+            color: black;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 1rem;
+            margin-top: auto;
+            border: solid black 2px;
+        }
+        
         .nav{
             text-align: center;
-            background-color: rgb(234, 8, 188);
-            padding: 1rem;
-            border-radius: 4rem;
-        }
-        placeholder{
-            text-align: center;
+            background-color: red;
+            padding: 3rem;
+            border-radius: 1rem;
+            width: 70%;
+            margin-top:5rem ;
+            margin-left: auto;
+            margin-right: auto;
         }
         .footer{
-            background-color: rgb(229, 125, 27);
-            border-radius: 4rem;
+            background-color:navy;
+            color: aliceblue;
+            border-radius: 2rem;
+            font-size: large;
+            
         }
